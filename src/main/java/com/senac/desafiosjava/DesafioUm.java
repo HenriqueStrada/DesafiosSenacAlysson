@@ -3,6 +3,7 @@ package com.senac.desafiosjava;
 import java.util.Scanner;
 
 public class DesafioUm {
+
     public static void main(String[] args) {
 
 
@@ -15,7 +16,7 @@ public class DesafioUm {
         if (fome.equals("s") && dinheiro.equals("s")) {
             System.out.println("Vá até a padaria da dona juriselda, ela vende uma comida incrivel!");
         }else if (fome.equals("s") && dinheiro.equals("n")) {
-            System.out.println("Vá trabalhar vagundo, ou aposte na blaze com o codigo: RENDAEXTRA!");
+            System.out.println("Vá trabalhar vagabundo, ou aposte na blaze com o codigo: RENDAEXTRA!");
         }else if (fome.equals("n") && dinheiro.equals("s")) {
             System.out.println("Compre o curso da Alura e aprofunde seus conhecimentos!");
         }else if (fome.equals("n") && dinheiro.equals("n")){
