@@ -24,7 +24,6 @@ public class DesafioDois {
         System.out.println("Preço: ");
         Double trPreco = ler.nextDouble();
         ler.nextLine();
-        System.out.println("---------------------------------------------");
 
         System.out.println("""
                 ---------------------------------------------
