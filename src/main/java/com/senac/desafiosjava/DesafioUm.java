@@ -6,7 +6,6 @@ public class DesafioUm {
 
     public static void main(String[] args) {
 
-
         Scanner ler = new Scanner(System.in);
         System.out.println("Responda com s [sim] ou n [não]:");
         System.out.println("Você está com fome?");
@@ -20,7 +19,7 @@ public class DesafioUm {
         }else if (fome.equals("n") && dinheiro.equals("s")) {
             System.out.println("Compre o curso da Alura e aprofunde seus conhecimentos!");
         }else if (fome.equals("n") && dinheiro.equals("n")){
-            System.out.println("Tá fazendo o que aqui home? Vá chifra um barranco");
+            System.out.println("Tá fazendo o que aqui home? Vá chifra um barranco!");
         }else {
             System.out.println("Pedi para escrever s ou n, e não " + "(fome: " + fome + ") e" + " (dinheiro: " + dinheiro + ") seu palhaço!");
         }
