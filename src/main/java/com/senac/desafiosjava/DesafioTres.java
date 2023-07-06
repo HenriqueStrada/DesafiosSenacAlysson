@@ -66,7 +66,7 @@ public class DesafioTres {
         }
 
         if(pontuacao == 0){
-            System.out.println(nome + ": Você teve incriveis zero pontos, errou tudo.");
+            System.out.println(nome + ": Você teve incriveis zero pontos, errou tudo sua mula.");
         }else if(pontuacao == 1){
             System.out.println(nome + ": Acertou uma questao... melhor que nada");
         }else if(pontuacao == 2){
